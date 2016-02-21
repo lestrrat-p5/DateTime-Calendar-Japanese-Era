@@ -372,3 +372,11 @@ This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 See http://www.perl.com/perl/misc/Artistic.html
+
+# POD ERRORS
+
+Hey! __The above document had some coding errors, which are explained below:__
+
+- Around line 260:
+
+    Non-ASCII character seen before =encoding in '"ʿ��"'. Assuming UTF-8

@@ -59,7 +59,18 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.08001",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/lestrrat/p5-DateTime-Calendar-Japanese-Era/issues"
+      },
+      "homepage" : "https://github.com/lestrrat/p5-DateTime-Calendar-Japanese-Era",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/lestrrat/p5-DateTime-Calendar-Japanese-Era.git",
+         "web" : "https://github.com/lestrrat/p5-DateTime-Calendar-Japanese-Era"
+      }
+   },
+   "version" : "0.08002",
    "x_authority" : "cpan:DMAKI",
    "x_contributors" : [
       "Daisuke Maki <lestrrat+github@gmail.com>"
