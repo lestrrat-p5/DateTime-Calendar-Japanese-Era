@@ -4,7 +4,7 @@
       "Copyright (c) 2004-2007 Daisuke Maki <daisuke@endeworks.jp>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.2.0, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v3.0.1, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -33,7 +33,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build::Tiny" : "0.035"
          }
       },
       "develop" : {
@@ -60,6 +60,7 @@
    },
    "release_status" : "unstable",
    "version" : "0.08001",
+   "x_authority" : "cpan:DMAKI",
    "x_contributors" : [
       "Daisuke Maki <lestrrat+github@gmail.com>"
    ]
