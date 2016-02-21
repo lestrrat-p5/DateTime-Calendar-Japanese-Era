@@ -35,10 +35,10 @@ our @EXPORT_OK = qw(SOUTH_REGIME NORTH_REGIME);
 __PACKAGE__->mk_accessors($_) for qw(id name start end);
 
 __PACKAGE__->mk_classdata(MainDataFile =>
-    File::ShareDir::module_file(__PACKAGE__, 'eras.yaml')
+    File::ShareDir::dist_file('DateTime-Calendar-Japanese-Era', 'eras.yaml')
 );
 __PACKAGE__->mk_classdata(SouthRegimeDataFile =>
-    File::ShareDir::module_file(__PACKAGE__, 'south-eras.yaml')
+    File::ShareDir::dist_file('DateTime-Calendar-Japanese-Era', 'south-eras.yaml')
 );
 
 my(%ERAS_BY_ID, %ERAS_BY_NAME, @ERAS_BY_CENTURY, @SOUTH_REGIME_ERAS);
