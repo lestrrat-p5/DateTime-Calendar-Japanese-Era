@@ -1,6 +1,9 @@
 Changes
 =======
 
+{{$NEXT}}
+  - No code change, updated packaging (rt #79788)
+
 0.08001 25 Aug 2008
   - Require File::ShareDir 1.00, and update Module::Install (oh boy)
   - Require Encode. decode everything.
