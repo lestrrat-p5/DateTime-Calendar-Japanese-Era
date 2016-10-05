@@ -29,7 +29,7 @@ use constant SOUTH_REGIME_END => DateTime->new(
     day => 27,
     time_zone => 'Asia/Tokyo'
 );
-our $VERSION = '0.08002';
+our $VERSION = '0.08003';
 our @EXPORT_OK = qw(SOUTH_REGIME NORTH_REGIME);
 
 __PACKAGE__->mk_accessors($_) for qw(id name start end);
