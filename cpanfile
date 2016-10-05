@@ -1,3 +1,4 @@
+requires 'perl' => '5.008004';
 requires 'Class::Accessor::Fast';
 requires 'Class::Data::Inheritable';
 requires 'DateTime';

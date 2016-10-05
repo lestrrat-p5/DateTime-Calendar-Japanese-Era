@@ -55,7 +55,8 @@
             "Exporter" : "0",
             "File::ShareDir" : "1.00",
             "Params::Validate" : "0",
-            "YAML" : "0.71"
+            "YAML" : "0.71",
+            "perl" : "5.008004"
          }
       }
    },
