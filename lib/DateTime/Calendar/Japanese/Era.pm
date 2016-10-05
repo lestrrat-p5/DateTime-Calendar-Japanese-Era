@@ -259,7 +259,7 @@ DateTime::Calendar::Japanese::Era - DateTime Extension for Japanese Eras
     id => HEISEI_ERA
   );
   my $era = DateTime::Calendar::Japanese::Era->lookup_by_name(
-    name => "Ê¿À®"
+    name => "å¹³æˆ"
   );
 
   my $era = DateTime::Calendar::Japanese::Era->new(
