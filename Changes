@@ -2,6 +2,7 @@ Changes
 =======
 
 {{$NEXT}}
+  - Fix compilation issue(#1)
 
 0.08002 2016-02-21T22:31:17Z
   - No code change, updated packaging (rt #79788)
