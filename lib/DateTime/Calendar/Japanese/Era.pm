@@ -214,14 +214,14 @@ sub load_from_file
         if ( $opts->{is_south_regime} ) {
             push @SOUTH_REGIME_ERAS, __PACKAGE__->new(
                 id => $this_era->[$ID],
-                name => Encode::decode_utf8($this_era->[$NAME]),
+                name => $this_era->[$NAME],
                 start => $start_date, 
                 end => $end_date, 
             );
         } else {
             __PACKAGE__->register_era(
                 id    => $this_era->[$ID],
-                name  => Encode::decode_utf8($this_era->[$NAME]),
+                name  => $this_era->[$NAME],
                 start => $start_date,
                 end   => $end_date
             );
@@ -242,6 +242,8 @@ sub load_from_file
 __DATA__
 
 __END__
+
+=encoding utf-8
 
 =head1 NAME
 
