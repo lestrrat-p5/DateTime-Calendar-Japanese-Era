@@ -243,6 +243,8 @@ __DATA__
 
 __END__
 
+=encoding utf-8
+
 =head1 NAME
 
 DateTime::Calendar::Japanese::Era - DateTime Extension for Japanese Eras
