@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/lestrrat/p5-DateTime-Calendar-Japanese-Era.svg?branch=master)](https://travis-ci.org/lestrrat/p5-DateTime-Calendar-Japanese-Era)
 # NAME
 
 DateTime::Calendar::Japanese::Era - DateTime Extension for Japanese Eras
@@ -12,7 +13,7 @@ DateTime::Calendar::Japanese::Era - DateTime Extension for Japanese Eras
       id => HEISEI_ERA
     );
     my $era = DateTime::Calendar::Japanese::Era->lookup_by_name(
-      name => "ʿ��"
+      name => "平成"
     );
 
     my $era = DateTime::Calendar::Japanese::Era->new(
